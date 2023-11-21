@@ -1,0 +1,58 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center; /* Horizontally center the content */
+  justify-content: center; /* Vertically center the content */
+  height: 100vh; /* Set the container's height to 100% of the viewport height */
+  background-color: #000;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+h2{
+  min-height: 25px;
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+canvas {
+  border: 3px solid whitesmoke;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+#clear {
+  background-color: #f00; /* Red clear button */
+}
+
+#results {
+  margin-top: 20px;
+}
+#clear {
+  background-color: #f00;
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+#submit{
+  background-color: green;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
