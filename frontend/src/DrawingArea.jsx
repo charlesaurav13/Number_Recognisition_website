@@ -63,8 +63,8 @@ const DrawingArea = () => {
         onMouseMove={draw}
         onMouseUp={stopDrawing}
         onMouseOut={stopDrawing}
-        width={450}
-        height={450}
+        width={400}
+        height={400}
       />
       </div>
       <div className="buttons">
